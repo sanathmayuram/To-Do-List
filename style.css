@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 3.5rem;
+    width: 100%;
+    background-color: #d4e09b;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.quote {
+    height: 3rem;
+    width: 40%;
+    background-color: #f6f4d2;
+    margin-left: 25rem;
+    text-align: center;
+    padding-top: 20px;
+    border: 2px solid black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: relative;
+    z-index: 200;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-color: #cbdfbd;
+    position: relative;
+    z-index: 100;
+    margin-top: -70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.todowork {
+    height: 25rem;
+    width: 20rem;
+    background-color: #ffa69e;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+button {
+    background-color: #cbdfbd;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+li {
+  display: flex;
+  align-items: center;  
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+li button {
+  margin-left: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 3px 6px;
+  cursor: pointer;
+}
